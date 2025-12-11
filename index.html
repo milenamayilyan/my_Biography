@@ -12,7 +12,7 @@
     <header>
         <div class="header-inner">
             <div class="header-left">
-                <img src="https://i.imgur.com/vLWd4zV.jpeg" alt="Milena Mayilyan">
+                <img src="https://i.imgur.com/vLWd4zV.jpeg" alt="Milena Mayilyan" class="profile-pic">
                 <div class="header-name">
                     <h1>Milena Mayilyan</h1>
                     <h2>UFAR & Toulouse University Student</h2>
@@ -23,6 +23,7 @@
                 <a href="#education">Education</a>
                 <a href="#experience">Experience</a>
                 <a href="#skills">Skills</a>
+                <a href="#languages">Languages</a>
                 <a href="#achievements">Achievements</a>
                 <a href="#projects">Projects</a>
             </nav>
@@ -105,26 +106,36 @@
 
                 <h4>Technical Skills</h4>
                 <div class="skills-grid technical">
-                    <div class="skill-bubble">Python <span class="stars">★★★★★</span></div>
-                    <div class="skill-bubble">C <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">C# <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">Data Structures <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">Algorithms <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">Statistical Analysis <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">Git <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">Version Control <span class="stars">★★★★☆</span></div>
-                    <div class="skill-bubble">Video Editing <span class="stars">★★★☆☆</span></div>
+                    <div class="skill-circle size1">Python <span class="stars">★★★★★</span></div>
+                    <div class="skill-circle size2">C <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size3">C# <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size1">Data Structures & Algorithms <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size2">Statistical Data Analysis & Probability Modeling <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size3">Mathematical Foundations <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size1">Git <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size2">Microsoft Office <span class="stars">★★★★☆</span></div>
+                    <div class="skill-circle size3">Video Editing: After Effects <span class="stars">★★★☆☆</span></div>
                 </div>
 
                 <h4>Soft Skills</h4>
                 <div class="skills-grid soft">
-                    <div class="skill-bubble">Critical Thinking</div>
-                    <div class="skill-bubble">Problem Solving</div>
-                    <div class="skill-bubble">Communication</div>
-                    <div class="skill-bubble">Collaboration</div>
-                    <div class="skill-bubble">Time Management</div>
-                    <div class="skill-bubble">Adaptability</div>
-                    <div class="skill-bubble">Attention to Detail</div>
+                    <div class="skill-circle size1">Problem-Solving & Critical Thinking</div>
+                    <div class="skill-circle size2">Logical & Abstract Reasoning</div>
+                    <div class="skill-circle size3">Communication & Collaboration</div>
+                    <div class="skill-circle size1">Time Management</div>
+                    <div class="skill-circle size2">Adaptability & Quick Learning</div>
+                    <div class="skill-circle size3">Attention to Detail</div>
+                </div>
+            </section>
+
+            <!-- Languages Section -->
+            <section class="languages" id="languages">
+                <h3>Languages</h3>
+                <div class="skills-grid languages">
+                    <div class="skill-circle size1">Armenian - Native</div>
+                    <div class="skill-circle size2">English - C1</div>
+                    <div class="skill-circle size3">French - B1</div>
+                    <div class="skill-circle size1">Russian - B1</div>
                 </div>
             </section>
 
@@ -148,10 +159,10 @@
                     </div>
                     <div class="card card-3d">
                         <strong>Personalized Study Coach Web App</strong>
-                        <p>Built a local web app using Python and Streamlit with GPT-3.5 Turbo for AI-powered study guidance, featuring subject-based chat, file uploads, and Firebase authentication.</p>
+                        <p>Built a local web app using Python and Streamlit with GPT-3.5 Turbo for AI-powered study guidance, featuring subject-based chat, file uploads, and Firebase authentication & data storage.</p>
                     </div>
                     <div class="card card-3d">
-                        <strong>TaskLink – Collaborative Project Management App</strong>
+                        <strong>Collaborative Project Management App</strong>
                         <p>Planned and designed a demo collaborative platform, conducting market research, defining user needs, and simulating end-to-end project management to optimize teamwork and task allocation.</p>
                     </div>
                 </div>
@@ -166,7 +177,7 @@
 
     <!-- JS -->
     <script>
-        // Header shrink on scroll
+        // Header dynamic shrink & reposition
         window.addEventListener('scroll', function(){
             const header = document.querySelector('header');
             if(window.scrollY > 50){
