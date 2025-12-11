@@ -8,135 +8,154 @@
 </head>
 <body>
 
-<!-- Header -->
-<header id="header">
+<!-- Header / Navbar -->
+<header>
   <div class="header-inner">
-    <img src="https://i.imgur.com/vLWd4zV.jpeg" alt="Milena Mayilyan" class="profile-pic">
-    <div class="header-text">
-      <h1>Milena Mayilyan</h1>
-      <h2>UFAR & Toulouse University Student</h2>
+    <div class="header-left">
+      <img src="https://i.imgur.com/vLWd4zV.jpeg" alt="Milena Mayilyan" class="profile-pic">
+      <div class="header-name">
+        <h1>Milena Mayilyan</h1>
+        <h2>UFAR & Toulouse University Student</h2>
+      </div>
     </div>
     <nav class="header-nav">
-      <a href="#info">Info</a>
+      <a href="#info">Personal Info</a>
       <a href="#education">Education</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
       <a href="#languages">Languages</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#projects">Projects</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <section id="info">
-    <h3>Personal Info</h3>
-    <div class="framed-info">
-      <p><strong>Location:</strong> Yerevan, Armenia</p>
-      <p><strong>Date of Birth:</strong> 03.07.2005</p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/milena-mayilyan-7410b4293/" target="_blank">
-          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"> LinkedIn
-        </a>
-        <a href="https://github.com/milenamayilyan" target="_blank">
-          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"> GitHub
-        </a>
-      </div>
-    </div>
-  </section>
+  <div class="content">
 
-  <section id="education">
-    <h3>Education</h3>
-    <div class="highlight-section">
+    <!-- Personal Info -->
+    <section class="info" id="info">
+      <h3>Personal Info</h3>
+      <div class="framed-info card-3d">
+        <p><strong>Location:</strong> Yerevan, Armenia</p>
+        <p><strong>Date of Birth:</strong> 03.07.2005</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/milena-mayilyan-7410b4293/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon"> LinkedIn
+          </a>
+          <a href="https://github.com/milenamayilyan" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="social-icon"> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education highlight" id="education">
+      <h3>Education</h3>
       <div class="timeline">
         <div class="timeline-item">
-          <h4>French University in Armenia</h4>
-          <p>Bachelor of Computer Science and Applied Mathematics (2023–2027)</p>
+          <div class="timeline-content">
+            <h4>French University in Armenia</h4>
+            <p>Bachelor of Computer Science and Applied Mathematics (2023–2027)</p>
+          </div>
         </div>
         <div class="timeline-item">
-          <h4>Toulouse III - Paul Sabatier University</h4>
-          <p>Bachelor of Science and Engineering (2024–2027)</p>
+          <div class="timeline-content">
+            <h4>Toulouse III - Paul Sabatier University</h4>
+            <p>Bachelor of Science and Engineering (2024–2027)</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="experience">
-    <h3>Volunteer Experience</h3>
-    <div class="highlight-section">
+    <!-- Volunteer Experience -->
+    <section class="experience" id="experience">
+      <h3>Volunteer Experience</h3>
       <div class="timeline">
         <div class="timeline-item">
-          <h4>Guest Registration Volunteer – Toon Expo 2025</h4>
-          <p>Assisted visitors with registration and self-check-in. Resolved exceptions for guests missing details.</p>
+          <div class="timeline-content">
+            <h4>Guest Registration Volunteer – Toon Expo 2025</h4>
+            <p>Assisted visitors with registration and self-check-in. Resolved exceptions for guests missing details to ensure QR code entry access.</p>
+          </div>
         </div>
         <div class="timeline-item">
-          <h4>Guest Support Volunteer – Yerevan Dialogues 2025</h4>
-          <p>Provided info desk support and coordinated transportation. Added extra shuttle services based on demand.</p>
+          <div class="timeline-content">
+            <h4>Guest Support Volunteer – Yerevan Dialogues 2025</h4>
+            <p>Provided info desk support and coordinated transportation. Arranged additional shuttle services based on guest demand.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="skills">
-    <h3>Skills</h3>
-    <div class="highlight-section skills-container">
-
+    <!-- Skills -->
+    <section class="skills highlight" id="skills">
+      <h3>Skills</h3>
       <h4>Technical Skills</h4>
-      <div class="skills-mosaic">
-        <div class="skill-circle" data-stars="5">Python<br>★★★★★</div>
-        <div class="skill-circle" data-stars="4">C<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">C#<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Data Structures<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Algorithms<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Statistics<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Mathematics<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Git<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Microsoft Office<br>★★★★</div>
-        <div class="skill-circle" data-stars="3">Video Editing<br>★★★</div>
+      <div class="skills-grid">
+        <div class="skill-circle size1">Python ★★★★★</div>
+        <div class="skill-circle size2">C ★★★★☆</div>
+        <div class="skill-circle size3">C# ★★★★☆</div>
+        <div class="skill-circle size2">Data Structures & Algorithms ★★★★☆</div>
+        <div class="skill-circle size1">Statistical Data Analysis & Probability Modeling ★★★★☆</div>
+        <div class="skill-circle size3">Mathematical Foundations ★★★★☆</div>
+        <div class="skill-circle size1">Git ★★★★☆</div>
+        <div class="skill-circle size2">Microsoft Office ★★★★☆</div>
+        <div class="skill-circle size3">Video Editing: After Effects ★★★☆☆</div>
       </div>
 
       <h4>Soft Skills</h4>
-      <div class="skills-mosaic">
-        <div class="skill-circle" data-stars="5">Problem Solving<br>★★★★★</div>
-        <div class="skill-circle" data-stars="5">Critical Thinking<br>★★★★★</div>
-        <div class="skill-circle" data-stars="4">Logical Reasoning<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Communication<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Time Management<br>★★★★</div>
-        <div class="skill-circle" data-stars="4">Adaptability<br>★★★★</div>
-        <div class="skill-circle" data-stars="5">Attention to Detail<br>★★★★★</div>
+      <div class="skills-grid">
+        <div class="skill-circle size1">Problem-Solving & Critical Thinking</div>
+        <div class="skill-circle size3">Logical & Abstract Reasoning</div>
+        <div class="skill-circle size2">Communication & Collaboration</div>
+        <div class="skill-circle size1">Time Management</div>
+        <div class="skill-circle size2">Adaptability & Quick Learning</div>
+        <div class="skill-circle size3">Attention to Detail</div>
       </div>
+    </section>
 
-    </div>
-  </section>
-
-  <section id="projects">
-    <h3>Academic Projects</h3>
-    <div class="highlight-section projects-grid">
-      <div class="project-card">
-        <h4>Personalized Study Coach Web App</h4>
-        <p>Built a local web app using Python and Streamlit with GPT-3.5 Turbo for AI-powered study guidance, featuring subject-based chat, file uploads, and Firebase authentication.</p>
+    <!-- Languages -->
+    <section class="languages highlight" id="languages">
+      <h3>Languages</h3>
+      <div class="skills-grid">
+        <div class="skill-circle size2">Armenian - Native</div>
+        <div class="skill-circle size3">English - C1</div>
+        <div class="skill-circle size2">French - B1</div>
+        <div class="skill-circle size1">Russian - B1</div>
       </div>
-      <div class="project-card">
-        <h4>Collaborative Project Management App</h4>
-        <p>Planned and designed a demo collaborative platform, conducting market research, defining user needs, and simulating end-to-end project management to optimize teamwork and task allocation.</p>
-      </div>
-      <div class="project-card">
-        <h4>Air Quality Monitoring System</h4>
-        <p>IoT-based system for real-time air quality data collection and analysis (Tumo Labs – ClimateNet Project).</p>
-        <a href="https://milenamayilyan.github.io/Air_Quality_Project/" target="_blank" class="view-btn">View</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="languages">
-    <h3>Languages</h3>
-    <div class="highlight-section languages-mosaic">
-      <div class="skill-circle">Armenian<br>Native</div>
-      <div class="skill-circle">English<br>C1</div>
-      <div class="skill-circle">French<br>B1</div>
-      <div class="skill-circle">Russian<br>B1</div>
-    </div>
-  </section>
+    <!-- Achievements -->
+    <section class="achievements" id="achievements">
+      <h3>Achievements</h3>
+      <div class="cards card-3d">
+        <p><strong>Armenian Educational Foundation Scholarship (2024–Present)</strong><br>
+        Merit-based award covering the majority of tuition, granted to promising students with strong academic performance.</p>
+      </div>
+    </section>
 
+    <!-- Projects -->
+    <section class="projects highlight" id="projects">
+      <h3>Academic Projects</h3>
+      <div class="cards projects-grid">
+        <div class="card card-3d">
+          <strong>Air Quality Monitoring System</strong>
+          <p>Collaborating on an IoT-based hardware initiative (Tumo Labs – ClimateNet Project), designing and developing sensor-integrated systems to monitor environmental air quality.</p>
+          <a href="https://milenamayilyan.github.io/Air_Quality_Project/" target="_blank" class="view-btn">View</a>
+        </div>
+        <div class="card card-3d">
+          <strong>Personalized Study Coach Web App</strong>
+          <p>Built a local web app using Python and Streamlit with GPT-3.5 Turbo for AI-powered study guidance, featuring subject-based chat, file uploads, and Firebase authentication & data storage.</p>
+        </div>
+        <div class="card card-3d">
+          <strong>Collaborative Project Management App</strong>
+          <p>Planned and designed a demo collaborative platform, conducting market research, defining user needs, and simulating end-to-end project management to optimize teamwork and task allocation.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
 </main>
 
 <footer>
@@ -144,24 +163,22 @@
 </footer>
 
 <script>
-  // Sticky header shrink
-  const header = document.getElementById('header');
-  const profilePic = header.querySelector('.profile-pic');
-  const headerText = header.querySelector('.header-text');
-
-  window.addEventListener('scroll', () => {
-    if(window.scrollY > 80){
+  // Shrink header on scroll
+  window.addEventListener('scroll', function(){
+    const header = document.querySelector('header');
+    if(window.scrollY > 50){
       header.classList.add('shrink');
     } else {
       header.classList.remove('shrink');
     }
   });
 
-  // Smooth scroll
-  document.querySelectorAll('nav a').forEach(link=>{
-    link.addEventListener('click', (e)=>{
+  // Smooth scroll for nav links
+  document.querySelectorAll('.header-nav a').forEach(link=>{
+    link.addEventListener('click', function(e){
       e.preventDefault();
-      document.querySelector(link.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+      const target = document.querySelector(this.getAttribute('href'));
+      window.scrollTo({ top: target.offsetTop - 80, behavior:'smooth' });
     });
   });
 </script>
