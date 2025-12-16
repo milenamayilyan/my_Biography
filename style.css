@@ -75,20 +75,28 @@ section h3 { font-size:2em; color:#000; border-bottom:3px solid rgb(192,220,241)
 /* --- Skills --- */
 .skills-grid { display:flex; flex-wrap:wrap; gap:15px; margin-bottom:25px; }
 .skill-circle {
-    background:#fff;
-    border-radius:50%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    padding:10px;
-    text-align:center;
-    box-shadow:0 3px 10px rgba(0,0,0,0.1);
-    font-weight:600;
-    transition: transform 0.3s;
+    background: #fff;
+    border-radius: 18px;
+    padding: 14px 20px;
+    min-width: 160px;
+    min-height: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-weight: 600;
+
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.skill-circle:hover { transform:scale(1.05) rotate(-2deg); }
-.stars { display:block; margin-top:5px; color:rgb(192,220,241); font-size:1em; }
+.skill-circle:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+}
+
 /* Circle sizes */
 .size1 { width:120px; height:120px; }
 .size2 { width:150px; height:150px; }
