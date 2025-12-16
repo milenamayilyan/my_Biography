@@ -65,7 +65,7 @@ header.shrink .header-nav { margin-top:0; }
 
 /* --- Sections --- */
 section { padding:60px 20px; }
-section:nth-of-type(even) { background:#d7e7f5; }
+section:nth-of-type(even) { background:#e4eff8; }
 section h3 { font-size:2em; color:#000; border-bottom:3px solid rgb(192,220,241); display:inline-block; margin-bottom:25px; }
 
 /* --- Cards --- */
