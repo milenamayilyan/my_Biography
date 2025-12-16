@@ -73,7 +73,7 @@ section h3 { font-size:2em; color:#000; border-bottom:3px solid rgb(192,220,241)
 .card-3d:hover { transform: rotateY(8deg) rotateX(5deg); box-shadow:0 20px 30px rgba(0,0,0,0.2); }
 
 /* --- Skills --- */
-.skills-grid { display:flex; flex-wrap:wrap; gap:15px; margin-bottom:25px; }
+.skills-grid { display:flex; flex-wrap:wrap; gap:15px; margin-bottom:40px; margin-top:10px; }
 .skill-circle {
     background: #fff;
     border-radius: 18px;
