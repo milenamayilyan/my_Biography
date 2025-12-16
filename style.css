@@ -44,7 +44,7 @@ header {
 }
 .header-nav a {
     text-decoration:none;
-    color:#000;
+    color:#fff;
     font-weight:600;
 }
 .header-nav a:hover { color:#105048; }
@@ -77,9 +77,9 @@ section h3 { font-size:2em; color:#000; border-bottom:3px solid rgb(192,220,241)
 .skill-circle {
     background: #fff;
     border-radius: 18px;
-    padding: 14px 20px;
-    min-width: 160px;
-    min-height: 70px;
+
+    width: 180px;
+    height: 80px;
 
     display: flex;
     flex-direction: column;
@@ -96,11 +96,6 @@ section h3 { font-size:2em; color:#000; border-bottom:3px solid rgb(192,220,241)
     transform: translateY(-6px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.18);
 }
-
-/* Circle sizes */
-.size1 { width:120px; height:120px; }
-.size2 { width:150px; height:150px; }
-.size3 { width:180px; height:180px; }
 
 /* --- Timeline --- */
 .timeline { position:relative; margin:40px 0; padding-left:30px; }
