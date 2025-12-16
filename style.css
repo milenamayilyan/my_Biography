@@ -11,7 +11,7 @@ header {
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
     z-index: 100;
     transition: all 0.3s;
-    height: 250px;
+    height: 300px;
     display:flex;
     align-items:center;
 }
@@ -37,7 +37,7 @@ header {
 
 /* Navigation */
 .header-nav {
-    margin-top:15px;
+    margin-top:25px;
     display:flex;
     gap:15px;
     flex-wrap:wrap;
@@ -47,21 +47,22 @@ header {
     color:#fff;
     font-weight:600;
 }
-.header-nav a:hover { color:#105048; }
+.header-nav a:hover { color:#000; }
 
 /* Shrinked header on scroll */
 header.shrink {
     height:70px;
     flex-direction:row;
     justify-content:space-between;
+    padding: 0 40px;
 }
-header.shrink .header-inner { flex-direction:row; align-items:center; }
+header.shrink .header-inner { flex-direction:row; align-items:center; width: 100%; }
 header.shrink .header-left { flex-direction:row; align-items:center; }
 header.shrink .profile-pic { width:50px; height:50px; }
 header.shrink .header-name { text-align:left; margin-left:10px; }
 header.shrink .header-name h1 { font-size:1.2em; }
 header.shrink .header-name h2 { font-size:0.8em; display:none; }
-header.shrink .header-nav { margin-top:0; }
+header.shrink .header-nav { margin-top:0; margin-left: auto; }
 
 /* --- Sections --- */
 section { padding:60px 20px; }
